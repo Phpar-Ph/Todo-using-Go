@@ -1,0 +1,53 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Output of the go coverage tool
+*.cover
+
+# Dependency directories (remove the next line if you use vendoring)
+vendor/
+
+# Go workspace file
+go.work
+
+# Build artifacts and cache
+bin/
+tmp/
+dist/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDEs/editors
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Environment variables
+.env
+.env.local
+
+#node modules
+node_modules
+
+# Live reload tool (like Air)
+.air
+.air.toml
+
+# Node client (if using Fiber for API + frontend setup)
+client/node_modules/
+client/dist/
+client/.env
+
+# Go modules cache (just in case)
+#go.sum
+
